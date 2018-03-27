@@ -8,10 +8,10 @@
 
 namespace MyLib\WebSocket\Client\Driver;
 
-use Inhere\Library\Helpers\PhpHelper;
+use MyLib\PhpUtil\PhpHelper;
 use Inhere\WebSocket\Traits\SocketsTrait;
-use Inhere\WebSocket\WSHelper;
 use MyLib\WebSocket\Client\AbstractClient;
+use MyLib\WebSocket\Util\Helper;
 
 /**
  * Class SocketsClient
@@ -47,7 +47,7 @@ class SocketsClient extends AbstractClient
      */
     public static function isSupported(): bool
     {
-        return \\extension_loaded('sockets');
+        return \extension_loaded('sockets');
     }
 
     /**
@@ -240,7 +240,7 @@ class SocketsClient extends AbstractClient
             }
         }
 
-        return WSHelper::hybi10Decode($data);
+        return Helper::hybi10Decode($data);
     }
 
     /**
