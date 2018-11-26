@@ -6,12 +6,12 @@
  * Time: 13:26
  */
 
-namespace MyLib\WebSocket\Client;
+namespace PhpComp\WebSocket\Client;
 
 /**
  * Class InteractiveClient
  *  Interactive Terminal environment
- * @package MyLib\WebSocket\Client
+ * @package PhpComp\WebSocket\Client
  */
 class InteractiveClient
 {

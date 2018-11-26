@@ -6,16 +6,16 @@
  * Time: 12:44
  */
 
-namespace MyLib\WebSocket\Client\Driver;
+namespace PhpComp\WebSocket\Client\Driver;
 
 use Inhere\WebSocket\Traits\StreamsTrait;
-use MyLib\WebSocket\Client\AbstractClient;
-use MyLib\WebSocket\Client\Exception\ConnectionException;
+use PhpComp\WebSocket\Client\AbstractClient;
+use PhpComp\WebSocket\Client\Exception\ConnectionException;
 
 /**
  * Class StreamsClient
  * power by `streams` extension(php built-in)
- * @package MyLib\WebSocket\Client\Driver
+ * @package PhpComp\WebSocket\Client\Driver
  */
 class StreamsClient extends AbstractClient
 {
@@ -29,7 +29,7 @@ class StreamsClient extends AbstractClient
     /**
      * @inheritdoc
      */
-    public static function isSupported(): bool 
+    public static function isSupported(): bool
     {
         return \function_exists('stream_socket_accept');
     }
@@ -100,7 +100,7 @@ class StreamsClient extends AbstractClient
      * @param int $length
      * @return string
      */
-    public function readResponseHeader(int $length = 2048): string 
+    public function readResponseHeader(int $length = 2048): string
     {
         if ($length < 1024) {
             $length = 1024;

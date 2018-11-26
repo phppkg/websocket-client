@@ -6,17 +6,17 @@
  * Time: 11:13
  */
 
-namespace MyLib\WebSocket\Client\Driver;
+namespace PhpComp\WebSocket\Client\Driver;
 
-use MyLib\PhpUtil\PhpHelper;
+use Toolkit\PhpUtil\PhpHelper;
 use Inhere\WebSocket\Traits\SocketsTrait;
-use MyLib\WebSocket\Client\AbstractClient;
-use MyLib\WebSocket\Util\Helper;
+use PhpComp\WebSocket\Client\AbstractClient;
+use PhpComp\WebSocket\Util\Helper;
 
 /**
  * Class SocketsClient
  * power by `sockets` extension
- * @package MyLib\WebSocket\Client\Driver
+ * @package PhpComp\WebSocket\Client\Driver
  */
 class SocketsClient extends AbstractClient
 {

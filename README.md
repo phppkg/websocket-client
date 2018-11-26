@@ -3,7 +3,7 @@
 ## install 
 
 ```bash
-composer require mylib/websocket-client
+composer require php-comp/websocket-client
 ```
 
 ## license

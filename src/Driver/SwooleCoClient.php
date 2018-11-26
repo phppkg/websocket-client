@@ -6,11 +6,11 @@
  * Time: 22:20
  */
 
-namespace MyLib\WebSocket\Client\Driver;
+namespace PhpComp\WebSocket\Client\Driver;
 
 /**
  * Class SwooleCoClient
- * @package MyLib\WebSocket\Client\Driver
+ * @package PhpComp\WebSocket\Client\Driver
  */
 class SwooleCoClient
 {

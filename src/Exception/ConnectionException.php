@@ -6,11 +6,11 @@
  * Time: 22:01
  */
 
-namespace MyLib\WebSocket\Client\Exception;
+namespace PhpComp\WebSocket\Client\Exception;
 
 /**
  * Class ConnectionException
- * @package MyLib\WebSocket\Client\Exception
+ * @package PhpComp\WebSocket\Client\Exception
  */
 class ConnectionException extends \RuntimeException
 {

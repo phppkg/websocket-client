@@ -6,11 +6,11 @@
  * Time: 22:36
  */
 
-namespace MyLib\WebSocket\Client\Exception;
+namespace PhpComp\WebSocket\Client\Exception;
 
 /**
  * Class WrittenException
- * @package MyLib\WebSocket\Client\Exception
+ * @package PhpComp\WebSocket\Client\Exception
  */
 class WrittenException extends \RuntimeException
 {

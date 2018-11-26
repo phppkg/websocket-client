@@ -6,15 +6,15 @@
  * Time: 9:14
  */
 
-namespace MyLib\WebSocket\Client;
+namespace PhpComp\WebSocket\Client;
 
-use MyLib\WebSocket\Client\Driver\SocketsClient;
-use MyLib\WebSocket\Client\Driver\StreamsClient;
-use MyLib\WebSocket\Client\Driver\SwooleClient;
+use PhpComp\WebSocket\Client\Driver\SocketsClient;
+use PhpComp\WebSocket\Client\Driver\StreamsClient;
+use PhpComp\WebSocket\Client\Driver\SwooleClient;
 
 /**
  * Class WebSocketClient
- * @package MyLib\WebSocket\Client
+ * @package PhpComp\WebSocket\Client
  */
 final class ClientFactory
 {

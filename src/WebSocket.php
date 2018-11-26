@@ -6,11 +6,11 @@
  * Time: 22:02
  */
 
-namespace MyLib\WebSocket\Client;
+namespace PhpComp\WebSocket\Client;
 
 /**
  * Class WebSocket
- * @package MyLib\WebSocket\Client
+ * @package PhpComp\WebSocket\Client
  */
 class WebSocket
 {

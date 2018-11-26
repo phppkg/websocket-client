@@ -6,15 +6,15 @@
  * Time: 12:46
  */
 
-namespace MyLib\WebSocket\Client\Driver;
+namespace PhpComp\WebSocket\Client\Driver;
 
-use MyLib\WebSocket\Client\AbstractClient;
+use PhpComp\WebSocket\Client\AbstractClient;
 use Swoole\Client;
 
 /**
  * Class SwooleDriver
  * power by `swoole` extension
- * @package MyLib\WebSocket\Client\Driver
+ * @package PhpComp\WebSocket\Client\Driver
  */
 class SwooleClient extends AbstractClient
 {
@@ -90,7 +90,7 @@ class SwooleClient extends AbstractClient
      * @param int $length
      * @return string
      */
-    public function readResponseHeader(int $length = 0): string 
+    public function readResponseHeader(int $length = 0): string
     {
         $headerBuffer = '';
 

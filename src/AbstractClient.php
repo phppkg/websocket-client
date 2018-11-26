@@ -6,18 +6,18 @@
  * Time: 15:55
  */
 
-namespace MyLib\WebSocket\Client;
+namespace PhpComp\WebSocket\Client;
 
 use Inhere\Http\ServerRequest as Request;
 use Inhere\Http\Response;
 use Inhere\Http\Uri;
-use MyLib\WebSocket\Client\Exception\ConnectionException;
-use MyLib\WebSocket\Client\Exception\WrittenException;
-use MyLib\WebSocket\Util\WebSocketUtilTrait;
+use PhpComp\WebSocket\Client\Exception\ConnectionException;
+use PhpComp\WebSocket\Client\Exception\WrittenException;
+use PhpComp\WebSocket\Util\WebSocketUtilTrait;
 
 /**
  * Class AbstractClient
- * @package MyLib\WebSocket\Client
+ * @package PhpComp\WebSocket\Client
  */
 abstract class AbstractClient implements ClientInterface
 {
@@ -352,7 +352,7 @@ abstract class AbstractClient implements ClientInterface
      * @param string $opCode
      * @param bool $masked
      * @return int
-     * @throws \MyLib\WebSocket\Client\Exception\WrittenException
+     * @throws \PhpComp\WebSocket\Client\Exception\WrittenException
      * @throws \InvalidArgumentException
      */
     protected function sendByFragment($payload, $opCode = 'text', $masked = true): int

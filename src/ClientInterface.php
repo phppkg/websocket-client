@@ -6,13 +6,13 @@
  * Time: 12:41
  */
 
-namespace MyLib\WebSocket\Client;
+namespace PhpComp\WebSocket\Client;
 
-use MyLib\WebSocket\Util\WebSocketInterface;
+use PhpComp\WebSocket\Util\WebSocketInterface;
 
 /**
  * Interface ClientInterface
- * @package MyLib\WebSocket\Client
+ * @package PhpComp\WebSocket\Client
  */
 interface ClientInterface extends WebSocketInterface
 {
