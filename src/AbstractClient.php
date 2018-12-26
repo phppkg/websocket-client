@@ -8,9 +8,9 @@
 
 namespace PhpComp\WebSocket\Client;
 
-use Inhere\Http\ServerRequest as Request;
-use Inhere\Http\Response;
-use Inhere\Http\Uri;
+use PhpComp\Http\Message\ServerRequest as Request;
+use PhpComp\Http\Message\Response;
+use PhpComp\Http\Message\Uri;
 use PhpComp\WebSocket\Client\Exception\ConnectionException;
 use PhpComp\WebSocket\Client\Exception\WrittenException;
 use PhpComp\WebSocket\Util\WebSocketUtilTrait;
